@@ -25,7 +25,7 @@ export default function Page() {
         </Link>
       </div>
       <div className="flex items-center justify-center p-8 lg:p-12">
-        <SignUp />
+        <SignUp redirectUrl="/dashboard" />
       </div>
     </div>
   );
